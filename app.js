@@ -35,6 +35,5 @@ inputTextArea.addEventListener('paste', function(event) {
 document.getElementById('copyBtn').addEventListener('click', function() {
     outputTextArea.select();
     document.execCommand('copy');
-
     updateHistory(outputTextArea.value); // Add capitalized text to history after copying
 });
