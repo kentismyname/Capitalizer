@@ -14,7 +14,9 @@ function updateHistory(capitalizedText) {
     if (capitalizedText.trim() !== "") { // Check if the text is not empty
         const listItem = document.createElement('li');
         listItem.textContent = capitalizedText;
-        historyList.appendChild(listItem);
+        
+        // Prepend the new item to the top of the history list
+        historyList.prepend(listItem);
     }
 }
 
@@ -33,5 +35,6 @@ inputTextArea.addEventListener('paste', function(event) {
 document.getElementById('copyBtn').addEventListener('click', function() {
     outputTextArea.select();
     document.execCommand('copy');
+
     updateHistory(outputTextArea.value); // Add capitalized text to history after copying
 });
