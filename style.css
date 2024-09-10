@@ -2,10 +2,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f3f4f6;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column; /* Allow stacking of elements vertically */
     justify-content: center; /* Center elements vertically */
     align-items: center; /* Center elements horizontally */
     min-height: 100vh; /* Use minimum height to ensure the body covers the full viewport */
+=======
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+>>>>>>> a5364d476f61a17f1d074c872389092ca1f8134a
     margin: 0;
 }
 
@@ -21,7 +27,10 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+<<<<<<< HEAD
     flex-grow: 1; /* Make the container take up the available space */
+=======
+>>>>>>> a5364d476f61a17f1d074c872389092ca1f8134a
 }
 
 h1 {
@@ -102,6 +111,7 @@ h2 {
 #historyList li:hover {
     background-color: #e8f5e9;
 }
+<<<<<<< HEAD
 
 footer {
     text-align: center;
@@ -112,3 +122,5 @@ footer {
     border-top: 1px solid #ddd;
     width: 100%;
 }
+=======
+>>>>>>> a5364d476f61a17f1d074c872389092ca1f8134a
