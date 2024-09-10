@@ -115,10 +115,16 @@ footer {
     border-top: 1px solid #ddd;
     width: 100%;
 }
-.fa-facebook{
+i{
     font-size: 20px;
-    color: blue;
     transition: ease-in-out 0.2s;
+    margin: 10px;    
+}
+.fa-skype{
+    color: rgb(0, 103, 151);
+}
+.fa-facebook{
+    color: rgb(0, 51, 190);
 }
 
 p{
