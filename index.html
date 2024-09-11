@@ -7,21 +7,29 @@
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
+    <script src="https://kit.fontawesome.com/bb5f008548.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
+        <!-- Update details section -->
+        <div class="update-box" id="updateBox">
+            <p><strong>UPDATE:</strong>The text will now automatically be capitalized and trimmed from the first occurrence of 'BB,' 'BKB,' 'BWB,' or 'BAB.' Ensure that the abbreviations of braces are in the correct format. You can paste the entire row from Smartsheet to try the update. 😉</p>
+            <button class="close-btn" onclick="closeUpdateBox()">X</button>
+        </div>
+
         <h1>Text Capitalizer By Kent</h1>
         <textarea id="inputText" placeholder="Type or paste your text here..."></textarea>
         <textarea id="outputText" readonly placeholder="Capitalized text will appear here..."></textarea>
         <button id="copyBtn">Copy to Clipboard</button>
+        
         <h2>History</h2>
         <ul id="historyList"></ul>
     </div>
+
     <footer>
         <p>Created by John Kenneth Biscocho Dalisay</p>
-        <p>If there's a problem.Kindly PM me on Facebook or Skype by just clicking the icons below </p>
-        <p ><a href="https://www.facebook.com/johnkenneth.dalisay.58" target="_blank"><i class="fa-brands fa-facebook"></i></a> <a href="https://join.skype.com/invite/v1EREYDZKf7u"><i class="fa-brands fa-skype"></i></a></i></p>
+        <p>If there's a problem, kindly PM me on Facebook or Skype by just clicking the icons below:</p>
+        <p><a href="https://www.facebook.com/johnkenneth.dalisay.58" target="_blank"><i class="fa-brands fa-facebook"></i></a> <a href="https://join.skype.com/invite/v1EREYDZKf7u"><i class="fa-brands fa-skype"></i></a></p>
     </footer>
-    <script src="https://kit.fontawesome.com/bb5f008548.js" crossorigin="anonymous"></script>
 </body>
 </html>
